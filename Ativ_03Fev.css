@@ -1,0 +1,48 @@
+.iguais {
+    color:blue
+}
+.titulo{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: yellow;
+        
+    
+
+}
+.foto {
+    color:brown;
+    font-weight: 700;
+}
+
+.link {
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 15px;
+    height: 20px;
+    text-align: center;
+    }
+
+    .link:hover{
+        color: brown;
+
+    }
+    
+    .button {
+        background-color: blue;
+        border: 0;
+        height: 20px;
+        width: 20 px;
+        color:white
+
+
+    }
+    
+    
+    

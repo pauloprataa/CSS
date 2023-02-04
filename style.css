@@ -1,0 +1,102 @@
+para  Todos
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforme-se</title>
+    <style>
+        p {
+           color: red; 
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Os tipos de estilo -->
+
+    <p> 1 - Estilo em linha ou inline</p>
+    <p> 2 - Estilo externo ou external</p>
+    <p style="color: purple;"> 3 - Estilo interno ou internal</p>
+
+    <!-- Classes e Id - Identificadores -->
+
+    <p id="primeiro-paragrafo">Esse aqui é um parágrafo - Identificador</p>
+    <p class="esses-sao-iguais">Esse aqui é um parágrafo - classe</p>
+    <p class="esses-sao-iguais">Esse aqui é um parágrafo - classe</p>
+    <p class="esses-sao-iguais">Esse aqui é um parágrafo - classe</p>
+
+    <!-- Como modificar mais de um elemento -->
+
+    <h1>Titulo principal</h1>
+    <h2>Subtítulo da minha página</h2>
+    <h2>Outro subtítulo</h2>
+
+    <!-- Tipos de cores -->
+
+    <p class="cor">Pela cor</p>
+    <p class="rgb">Cor RGB</p>
+    <p class="hexa">Cor Hexadecimal</p>
+    <p class="hsl">Cor HSL</p>
+
+</body>
+</html>
+Css
+p {
+    color: green;
+
+}
+
+/* Classes e IDs */
+
+.esses-sao-iguais {
+    background-color: chocolate;
+    color: white;
+}
+
+#primeiro-paragrafo {
+    background-color: crimson;
+    color: white;
+}
+
+/* Para modificar mais de um elemento */
+
+h1, h2{
+    background-color: blue;
+    color: white;
+}
+
+/* Eu quero todos os elementos */
+
+/*
+
+* {
+    font-style: italic;
+}
+
+*/
+
+/* Tipos de cores */
+
+.cor {
+    background-color: black;
+    color: darkgoldenrod;
+}
+
+.rgb {
+    background-color: black;
+    color: rgb(135,206,250);
+}
+
+.hexa {
+    background-color: black;
+    color: #87CEFA;
+}
+
+.hsl {
+    background-color: black;
+    color: hsl(30, 100%, 50%);
+}
